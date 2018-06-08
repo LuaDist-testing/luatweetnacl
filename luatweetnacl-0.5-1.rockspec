@@ -1,8 +1,16 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "luatweetnacl"
 version = "0.5-1"
+-- LuaDist source
 source = {
-   url = "git://github.com/philanc/luatweetnacl" 
+  tag = "0.5-1",
+  url = "git://github.com/LuaDist-testing/luatweetnacl.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/philanc/luatweetnacl" 
+-- }
 description = {
    summary = "A simple binding to the NaCl crypto library.",
    detailed = [[
@@ -26,4 +34,3 @@ build = {
    }
    -- copy_directories = { "doc", "test" }
 }
-
